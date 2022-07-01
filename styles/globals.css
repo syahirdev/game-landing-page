@@ -10,5 +10,5 @@
 }
 
 html, body {
-    @apply font-avenir scroll-smooth
+    @apply font-roboto scroll-smooth text-white
 }

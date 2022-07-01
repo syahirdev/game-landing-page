@@ -9,6 +9,10 @@ module.exports = {
       fontFamily: {
         roboto: ["Roboto"],
         avenir: ["Avenir"]
+      },
+      colors: {
+        "nz-black": "#121212",
+        "nz-purple": "#A168DF"
       }
     }
   },
