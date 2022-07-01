@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative h-[75vh] bg-gradient-to-br from-[#6013B4] to-[#27054B]">
+    <section className="relative h-[75vh] bg-gradient-to-br from-[#6013B4] to-[#27054B] z-40">
       <div className="max-w-7xl mx-auto flex flex-col justify-center h-full">
         <h1 className="max-w-xl text-6xl mb-4">Homepage CTA banner title</h1>
         <h2 className="max-w-sm text-xl mb-10">

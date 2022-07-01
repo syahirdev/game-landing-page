@@ -13,11 +13,16 @@
 }
 
 html, body {
-    @apply font-avenir text-white relative bg-nz-black tracking-wide font-bold
+    @apply font-avenir text-white relative bg-nz-black tracking-wide font-bold overflow-x-hidden
 }
 
 @layer components {
     .scrollbar-app {
         @apply scroll-smooth scrollbar scrollbar-thin scrollbar-thumb-white scrollbar-track-poroporo
+    }
+
+    .text-stroke {
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: white;
     }
 }

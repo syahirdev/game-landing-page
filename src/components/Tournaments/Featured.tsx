@@ -20,7 +20,7 @@ export default function Featured(props: Props) {
         <Thumbnail
           title="Overwatch All-Stars 2021 Championship!!!"
           posterImage="assets/images/image 219-1-0.png"
-          authorImage="assets/images/image-uploader.png"
+          authorImage="assets/avatar/image-uploader.png"
           gameType="Single elimination"
           prize={400}
           endDate="Monday, Dec 11, 15:00"
@@ -28,7 +28,7 @@ export default function Featured(props: Props) {
         <Thumbnail
           title="Overwatch All-Stars 2021 Championship!!!"
           posterImage="assets/images/image 219-1-1.png"
-          authorImage="assets/images/image-uploader-1.png"
+          authorImage="assets/avatar/image-uploader-1.png"
           gameType="Single elimination"
           prize={400}
           endDate="Monday, Dec 11, 15:00"
@@ -36,7 +36,7 @@ export default function Featured(props: Props) {
         <Thumbnail
           title="Overwatch All-Stars 2021 Championship!!!"
           posterImage="assets/images/image 219-1-2.png"
-          authorImage="assets/images/image-uploader-2.png"
+          authorImage="assets/avatar/image-uploader-2.png"
           gameType="Single elimination"
           prize={400}
           endDate="Monday, Dec 11, 15:00"
@@ -44,7 +44,7 @@ export default function Featured(props: Props) {
         <Thumbnail
           title="Overwatch All-Stars 2021 Championship!!!"
           posterImage="assets/images/image 219-1-3.png"
-          authorImage="assets/images/image-uploader-3.png"
+          authorImage="assets/avatar/image-uploader-3.png"
           gameType="Single elimination"
           prize={400}
           endDate="Monday, Dec 11, 15:00"

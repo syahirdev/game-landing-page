@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header
-      className="absolute top-0 z-10 w-full flex items-center justify-between bg-nz-black px-20 py-3">
+      className="absolute top-0 z-50 w-full flex items-center justify-between bg-nz-black px-20 py-3">
       {/*Navigation*/}
       <nav>
         <ul className="flex items-center gap-x-12">

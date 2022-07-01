@@ -16,13 +16,21 @@ export default function Footer() {
       </div>
 
       {/*Right footer*/}
-      <div className="flex gap-x-5">
+      <div className="flex items-center gap-x-7">
         <p className="text-mawheranui">Follow us on social media</p>
-        <div className="flex gap-x-3">
-          <p>Twitter</p>
-          <p>Facebook</p>
-          <p>Instagram</p>
-          <p>LinkedIn</p>
+        <div className="flex items-center gap-x-5">
+          <div>
+            <img src="assets/icons/twitter.svg"/>
+          </div>
+          <div>
+            <img src="assets/icons/facebook.svg"/>
+          </div>
+          <div>
+            <img src="assets/icons/instagram.svg"/>
+          </div>
+          <div>
+            <img src="assets/icons/linkedin.svg"/>
+          </div>
         </div>
       </div>
     </footer>

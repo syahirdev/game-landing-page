@@ -1,6 +1,6 @@
 export default function TournamentHighlight() {
   return (
-    <div className="flex items-center gap-x-20">
+    <div className="flex items-center gap-x-20 !mt-0">
       {/*Image*/}
       <div className="relative">
         <p className="absolute top-[-2.5rem] left-[0.5rem] text-6xl">Tournaments</p>
