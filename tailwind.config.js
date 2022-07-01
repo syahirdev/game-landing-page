@@ -12,7 +12,8 @@ module.exports = {
       },
       colors: {
         "nz-black": "#121212",
-        "nz-purple": "#A168DF"
+        "nz-purple": "#A168DF",
+        "greymouth": "#444444"
       }
     }
   },
