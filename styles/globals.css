@@ -12,3 +12,9 @@
 html, body {
     @apply font-roboto scroll-smooth text-white relative bg-nz-black
 }
+
+@layer components {
+    .scrollbar-app {
+        @apply scroll-smooth scrollbar scrollbar-thin scrollbar-thumb-white scrollbar-track-black
+    }
+}

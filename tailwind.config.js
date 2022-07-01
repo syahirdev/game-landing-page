@@ -13,9 +13,12 @@ module.exports = {
       colors: {
         "nz-black": "#121212",
         "nz-purple": "#A168DF",
+        "nz-purple-dark": "#772BCB",
         "greymouth": "#444444"
       }
     }
   },
-  plugins: []
+  plugins: [
+    require("./src/plugins/scrollbar")
+  ]
 };
