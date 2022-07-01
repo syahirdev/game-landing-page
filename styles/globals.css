@@ -10,5 +10,5 @@
 }
 
 html, body {
-    @apply font-roboto scroll-smooth text-white relative
+    @apply font-roboto scroll-smooth text-white relative bg-nz-black
 }
