@@ -5,11 +5,14 @@ import News from "../components/News";
 import Articles from "../components/Articles";
 import About from "../components/About";
 import Games from "../components/Games";
+import Faq from "../components/Faq";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div>
       <Header/>
+
       <main>
         <Hero/>
         <Tournaments/>
@@ -17,7 +20,10 @@ export default function Home() {
         <Articles/>
         <About/>
         <Games/>
+        <Faq/>
       </main>
+
+      <Footer/>
     </div>
   );
 }
