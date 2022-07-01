@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Tournaments from "../components/Tournaments";
 import News from "../components/News";
 import Articles from "../components/Articles";
+import About from "../components/About";
+import Games from "../components/Games";
 
 export default function Home() {
   return (
@@ -13,6 +15,8 @@ export default function Home() {
         <Tournaments/>
         <News/>
         <Articles/>
+        <About/>
+        <Games/>
       </main>
     </div>
   );
