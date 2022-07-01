@@ -10,9 +10,9 @@ export default function Thumbnail(props: Props) {
     <div>
       <img src={props.posterImage}/>
       <p className="mt-4 mb-1">{props.title}</p>
-      <div className="flex items-center gap-x-2 opacity-50">
+      <div className="flex items-center gap-x-2 text-moeraki text-sm">
         <p>{props.authorName}</p>
-        <div className="h-1 w-1 rounded-full bg-white"/>
+        <div className="h-1 w-1 rounded-full bg-moeraki"/>
         <p>{props.date}</p>
       </div>
     </div>

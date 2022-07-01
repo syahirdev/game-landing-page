@@ -1,7 +1,7 @@
 import Thumbnail from "./Thumbnail";
 
 interface Props {
-  title: string
+  title: string;
 }
 
 export default function Featured(props: Props) {
@@ -9,8 +9,8 @@ export default function Featured(props: Props) {
     <div className="space-y-5">
       {/*Header*/}
       <div className="flex justify-between items-center">
-        <h3 className="text-3xl font-medium">{props.title}</h3>
-        <button className="bg-white text-nz-purple font-medium rounded-md px-8 py-2">
+        <h3 className="text-3xl">{props.title}</h3>
+        <button className="bg-white text-lupin-normal rounded-md px-8 py-2">
           View more
         </button>
       </div>

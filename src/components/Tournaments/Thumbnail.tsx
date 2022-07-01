@@ -14,11 +14,11 @@ export default function Thumbnail(props: Props) {
       <div className="flex gap-x-2">
         <img src={props.authorImage} className="h-8 w-8"/>
         <div className="space-y-2">
-          <p className="font-medium">{props.title}</p>
-          <div className="opacity-50 text-sm">
+          <p className="font-bold">{props.title}</p>
+          <div className="text-moeraki text-sm">
             <div className="flex items-center gap-x-2">
               <p>{props.gameType}</p>
-              <div className="h-1 w-1 rounded-full bg-white"/>
+              <div className="h-1 w-1 rounded-full bg-moeraki"/>
               Prize: ${props.prize.toFixed(2)}
             </div>
             <p>Ends {props.endDate}</p>

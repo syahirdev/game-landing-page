@@ -4,17 +4,20 @@
 
 @font-face {
     font-family: 'Avenir';
-    src: url("../public/assets/fonts/AvenirNextLTPro.otf");
-    font-weight: 400;
-    font-style: normal;
+    src: url("../public/assets/fonts/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Avenir Bold';
+    src: url("../public/assets/fonts/AvenirNextLTPro-Bold.otf");
 }
 
 html, body {
-    @apply font-roboto scroll-smooth text-white relative bg-nz-black
+    @apply font-avenir text-white relative bg-nz-black tracking-wide font-bold
 }
 
 @layer components {
     .scrollbar-app {
-        @apply scroll-smooth scrollbar scrollbar-thin scrollbar-thumb-white scrollbar-track-black
+        @apply scroll-smooth scrollbar scrollbar-thin scrollbar-thumb-white scrollbar-track-poroporo
     }
 }
