@@ -2,14 +2,14 @@ import Thumbnail from "./Thumbnail";
 
 export default function News() {
   return (
-    <div className="relative max-w-7xl mx-auto py-16 space-y-10">
+    <div className="relative max-w-7xl mx-auto px-5 py-16 space-y-10">
       <p
         className="font-avenir-bold absolute -top-24 left-0 text-[12rem]
         text-stroke text-transparent opacity-30 uppercase">
         get ahead
       </p>
 
-      <div className="relative flex gap-x-5 !mt-0">
+      <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 !mt-0">
         <h3 className="absolute top-[-42px] left-[20px] text-6xl">Latest News</h3>
         <Thumbnail
           title="What is?: Professional Competition in esports"

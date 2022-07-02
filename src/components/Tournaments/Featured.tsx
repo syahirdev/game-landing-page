@@ -16,7 +16,7 @@ export default function Featured(props: Props) {
       </div>
 
       {/*Contents*/}
-      <div className="flex gap-x-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-3 gap-y-5">
         <Thumbnail
           title="Overwatch All-Stars 2021 Championship!!!"
           posterImage="assets/images/image 219-1-0.png"
