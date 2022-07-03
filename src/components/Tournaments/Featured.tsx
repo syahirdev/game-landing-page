@@ -2,7 +2,7 @@ import Thumbnail from "./Thumbnail";
 
 interface Props {
   title: string;
-  tournaments: Tournament[]
+  tournaments: Tournament[];
 }
 
 export default function Featured({ title, tournaments }: Props) {
@@ -11,7 +11,10 @@ export default function Featured({ title, tournaments }: Props) {
       {/*Header*/}
       <div className="flex justify-between items-center">
         <h3 className="text-3xl">{title}</h3>
-        <button className="bg-white text-lupin-normal rounded-md px-8 py-2 shrink-0">View more</button>
+        <button
+          className="bg-white text-lupin-normal rounded-md px-8 py-2 shrink-0 hover:bg-lupin-normal hover:text-white duration-300">View
+          more
+        </button>
       </div>
 
       {/*Contents*/}

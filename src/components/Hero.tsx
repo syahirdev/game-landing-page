@@ -13,7 +13,7 @@ export default function Hero() {
           <h2 className="max-w-sm text-xl mb-10">{hero_data.description}</h2>
           <a
             href={hero_data.button.url}
-            className="bg-white rounded-md text-lupin-normal px-12 py-3 w-fit mb-6">
+            className="bg-white rounded-md text-lupin-normal px-12 py-3 w-fit mb-6 hover:bg-purple-200 duration-300">
             {hero_data.button.name}
           </a>
           <p className="text-sm font-normal">{hero_data.text}</p>

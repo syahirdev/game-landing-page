@@ -14,5 +14,5 @@ export default function Grid() {
         <div className="h-[3px] w-[3px] bg-white"/>
       </div>
     </>
-  )
+  );
 }
