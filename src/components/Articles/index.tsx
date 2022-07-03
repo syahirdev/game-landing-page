@@ -9,7 +9,7 @@ export default function Articles() {
 
   // VIEWS
   return (
-    <div className="max-w-7xl mx-auto px-5 pb-16 flex flex-col lg:flex-row">
+    <div className="max-w-7xl mx-auto px-5 pb-16 flex flex-col lg:flex-row relative z-30">
       <div className="rotate-0 lg:rotate-90 h-fit uppercase font-avenir-bold leading-none w-[7.5rem] mt-[-1.05rem]">
         <p className="text-lupin-normal text-7xl">featured</p>
         <p className="text-stroke text-transparent text-7xl ">articles</p>
