@@ -8,8 +8,8 @@ export default function TournamentHighlight({ tournament }: Props) {
       className="flex flex-col md:flex-row md:items-center gap-y-5 gap-x-5 lg:gap-x-10 xl:gap-x-20 !mt-0">
       {/*Image*/}
       <div className="relative">
-        <p className="absolute top-[-2.5rem] left-[0.5rem] text-3xl md:text-4xl lg:text-6xl">Tournaments</p>
-        <div className="rounded-md overflow-hidden relative z-50">
+        <p className="absolute top-[-2.5rem] left-[0.5rem] text-3xl md:text-4xl lg:text-6xl z-50">Tournaments</p>
+        <div className="rounded-md overflow-hidden relative z-40">
           <img src={tournament.imageUrl} className="w-full"/>
         </div>
 

@@ -19,7 +19,7 @@ export default function News() {
       </p>
 
       <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 !mt-0">
-        <h3 className="absolute top-[-42px] left-[20px] text-6xl">Latest News</h3>
+        <h3 className="absolute top-[-42px] left-[20px] text-6xl z-10">Latest News</h3>
         {news_data?.data.map((news, index) => (
           <Thumbnail key={index} news={news}/>
         ))}

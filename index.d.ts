@@ -1,3 +1,5 @@
+declare module 'react-reveal'
+
 interface Tournament {
   imageUrl: string,
   title: string,

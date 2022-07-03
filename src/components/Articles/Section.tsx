@@ -3,7 +3,7 @@ import { Dispatch, SetStateAction } from "react";
 
 interface Props {
   articles: Article[];
-  setChosenArticle: Dispatch<SetStateAction<Article>>
+  setChosenArticle: Dispatch<SetStateAction<Article>>;
 }
 
 export default function Section({ articles, setChosenArticle }: Props) {
