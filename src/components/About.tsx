@@ -1,3 +1,5 @@
+import about_data from "../data/about.json";
+
 export default function About() {
   return (
     <div className="relative max-w-7xl mx-auto px-5 py-16 space-y-10">
@@ -6,11 +8,7 @@ export default function About() {
         text-stroke text-transparent opacity-30 uppercase">
         about
       </p>
-      <p className="max-w-lg ml-auto">
-        Tortor, laoreet nunc diam et nullam sed. Vel eu tempus nibh quis. Nulla et congue pellentesque amet, purus. In
-        suspendisse eleifend pellentesque in tellus libero, venenatis viverra. Amet convallis in faucibus ut. Sit elit
-        molestie quam sed vestibulum, magna. Consectetur pulvinar dapibusturpis.
-      </p>
+      <p className="max-w-lg ml-auto">{about_data.data}</p>
     </div>
   );
 }

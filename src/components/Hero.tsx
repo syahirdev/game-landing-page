@@ -1,3 +1,5 @@
+import hero_data from "../data/hero.json";
+
 export default function Hero() {
   return (
     <section className="relative h-[75vh] bg-gradient-to-br from-[#6013B4] to-[#27054B] overflow-hidden">
@@ -7,15 +9,14 @@ export default function Hero() {
         <div
           className="absolute bg-[url('/assets/images/hero.png')] h-full w-full left-0 md:left-1/2 opacity-30 md:opacity-100"/>
         <div className="flex flex-col justify-center h-full z-50">
-          <h1 className="max-w-xl text-6xl mb-4">Homepage CTA banner title</h1>
-          <h2 className="max-w-sm text-xl mb-10">
-            Tincidunt velit turpis mus egestas nisl sed. Lectus tincidunt nec praesent placerat pellentesque.
-            Pharetra adipiscing iaculis semper aliquet mi, etiam.
-          </h2>
-          <button className="bg-white rounded-md text-lupin-normal px-12 py-3 w-fit mb-6">
-            Create tournament
-          </button>
-          <p className="text-sm font-normal">Dolor elementum commodo lorem aenean dictum.</p>
+          <h1 className="max-w-xl text-6xl mb-4">{hero_data.title}</h1>
+          <h2 className="max-w-sm text-xl mb-10">{hero_data.description}</h2>
+          <a
+            href={hero_data.button.url}
+            className="bg-white rounded-md text-lupin-normal px-12 py-3 w-fit mb-6">
+            {hero_data.button.name}
+          </a>
+          <p className="text-sm font-normal">{hero_data.text}</p>
         </div>
       </div>
 

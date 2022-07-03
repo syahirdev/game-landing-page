@@ -1,0 +1,9 @@
+{
+  "title": "Homepage CTA banner title",
+  "description": "Tincidunt velit turpis mus egestas nisl sed. Lectus tincidunt nec praesent placerat pellentesque. Pharetra adipiscing iaculis semper aliquet mi, etiam.",
+  "button": {
+    "url": "#",
+    "name": "Create tournament"
+  },
+  "text": "Dolor elementum commodo lorem aenean dictum."
+}

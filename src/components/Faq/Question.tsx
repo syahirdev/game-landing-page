@@ -2,7 +2,12 @@ import { Plus } from "iconoir-react";
 import { useState } from "react";
 import classnames from "classnames";
 
-export default function Question() {
+interface Props {
+  question: string,
+  answer: string
+}
+
+export default function Question({ question, answer }: Props) {
   // STATES
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,7 +16,7 @@ export default function Question() {
     <div
       className="text-left bg-neutral-800 rounded px-5 py-5 bg-neutral-800 rounded overflow-hidden">
       <div className="flex justify-between items-center">
-        <p>FAQ Question 1</p>
+        <p>{question}</p>
         <button
           className={classnames("border-2 border-lupin-dark rounded-full p-0.5 duration-500", { "rotate-[225deg]": isOpen })}
           onClick={() => setIsOpen(prevState => !prevState)}
@@ -24,9 +29,7 @@ export default function Question() {
           "mt-0": isOpen,
           "mt-[-100%] lg:mt-[-10%]": !isOpen
         })}>
-          Tortor, laoreet nunc diam et nullam sed. Vel eu tempus nibh quis. Nulla et congue pellentesque amet, purus. In
-          suspendisse eleifend pellentesque in tellus libero, venenatis viverra. Amet convallis in faucibus ut. Sit elit
-          molestie quam sed vestibulum, magna. Consectetur pulvinar dapibusturpis.
+          {answer}
         </p>
       </div>
     </div>

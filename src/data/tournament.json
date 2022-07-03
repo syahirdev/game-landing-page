@@ -1,0 +1,105 @@
+{
+  "highlight": {
+    "imageUrl": "assets/images/tournament-highlight.png",
+    "title": "CS:GO Chapter 2 - Monthly Ladder",
+    "endDate": "Monday, December 11, 15:00",
+    "type": "Elimination",
+    "prize": 400,
+    "author": {
+      "avatar": "assets/avatar/jagong_gong.png",
+      "name": "jagong_gong"
+    }
+  },
+  "tournaments": [
+    {
+      "imageUrl": "assets/images/image 219-1-0.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "Single elimination",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-1-1.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "Single elimination",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-1.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-1-2.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "Single elimination",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-2.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-1-3.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "Single elimination",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-3.png",
+        "name": ""
+      }
+    }
+  ],
+  "seasons": [
+    {
+      "imageUrl": "assets/images/image 219-2-0.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "40 players",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-4.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-2-1.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "40 players",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-5.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-2-2.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "40 players",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-6.png",
+        "name": ""
+      }
+    },
+    {
+      "imageUrl": "assets/images/image 219-2-3.png",
+      "title": "Overwatch All-Stars 2021 Championship!!!",
+      "endDate": "Monday, December 11, 15:00",
+      "type": "40 players",
+      "prize": 400,
+      "author": {
+        "avatar": "assets/avatar/image-uploader-7.png",
+        "name": ""
+      }
+    }
+  ]
+}

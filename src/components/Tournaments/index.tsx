@@ -1,5 +1,6 @@
 import Highlight from "./Highlight";
 import Featured from "./Featured";
+import tournament_data from '../../data/tournament.json'
 
 export default function Tournaments() {
   return (
@@ -9,9 +10,9 @@ export default function Tournaments() {
         text-stroke text-transparent opacity-30 uppercase">
         tournaments
       </p>
-      <Highlight/>
-      <Featured title="Featured tournament"/>
-      <Featured title="Featured seasons"/>
+      <Highlight tournament={tournament_data.highlight}/>
+      <Featured title="Featured tournament" tournaments={tournament_data.tournaments}/>
+      <Featured title="Featured seasons" tournaments={tournament_data.seasons}/>
 
       {/*Down arrow button*/}
       <button

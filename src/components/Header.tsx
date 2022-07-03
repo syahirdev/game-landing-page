@@ -1,6 +1,7 @@
 import classnames from "classnames";
 import { useState } from "react";
 import Grid from "../../public/assets/icons/Grid";
+import header_data from "../data/header.json";
 
 export default function Header() {
   // STATES
@@ -14,9 +15,13 @@ export default function Header() {
       <nav>
         <ul className="flex items-center gap-x-5 xl:gap-x-12">
           <li className="font-avenir-bold uppercase text-2xl">Logo</li>
-          <li className="hidden md:block">Content</li>
-          <li className="hidden md:block">Play</li>
-          <li className="hidden md:block">Shop</li>
+          {
+            header_data?.data.map((data) => (
+              <li className="hidden md:block" key={data.name}>
+                <a href={data.url}>{data.name}</a>
+              </li>
+            ))
+          }
         </ul>
       </nav>
 

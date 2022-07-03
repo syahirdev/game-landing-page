@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "imageUrl": "assets/images/news-1.png",
+      "title": "What is?: Professional Competition in esports",
+      "author": "Veronica Brauer",
+      "date": "August 1, 2021"
+    },
+    {
+      "imageUrl": "assets/images/news-2.png",
+      "title": "Auctor scelerisque tritique neque, in nec",
+      "author": "Kimberly Vaughn",
+      "date": "August 1, 2021"
+    },
+    {
+      "imageUrl": "assets/images/news-3.png",
+      "title": "Volutpat mauris risus aliquam convallis",
+      "author": "Sarah Jennings",
+      "date": "August 1, 2021"
+    }
+  ]
+}

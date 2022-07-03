@@ -1,4 +1,5 @@
 import Thumbnail from "./Thumbnail";
+import news_data from "../../data/news.json"
 
 export default function News() {
   return (
@@ -11,24 +12,9 @@ export default function News() {
 
       <div className="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 !mt-0">
         <h3 className="absolute top-[-42px] left-[20px] text-6xl">Latest News</h3>
-        <Thumbnail
-          title="What is?: Professional Competition in esports"
-          posterImage="assets/images/news-1.png"
-          authorName="Veronica Brauer"
-          date="August 1, 2021"
-        />
-        <Thumbnail
-          title="Auctor scelerisque tritique neque, in nec"
-          posterImage="assets/images/news-2.png"
-          authorName="Kimberly Vaughn"
-          date="August 1, 2021"
-        />
-        <Thumbnail
-          title="Volutpat mauris risus aliquam convallis"
-          posterImage="assets/images/news-3.png"
-          authorName="Sarah Jennings"
-          date="August 1, 2021"
-        />
+        {news_data?.data.map((news, index) => (
+          <Thumbnail key={index} news={news}/>
+        ))}
       </div>
 
       <div className="flex justify-between items-center">

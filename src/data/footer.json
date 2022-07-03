@@ -1,0 +1,53 @@
+{
+  "copyright": "Copyright © 2022. All Rights Reserved",
+  "links": [
+    {
+      "url": "#",
+      "name": "Home"
+    },
+    {
+      "url": "#",
+      "name": "Play"
+    },
+    {
+      "url": "#",
+      "name": "Content"
+    },
+    {
+      "url": "#",
+      "name": "Shop"
+    }
+  ],
+  "extraLinks": [
+    {
+      "url": "#",
+      "name": "Privacy policy"
+    },
+    {
+      "url": "#",
+      "name": "Terms & conditions"
+    }
+  ],
+  "socials": [
+    {
+      "url": "https://twitter.com/",
+      "alt": "Twitter",
+      "imageUrl": "assets/icons/twitter.svg"
+    },
+    {
+      "url": "https://facebook.com/",
+      "alt": "Facebook",
+      "imageUrl": "assets/icons/facebook.svg"
+    },
+    {
+      "url": "https://instagram.com/",
+      "alt": "Instagram",
+      "imageUrl": "assets/icons/instagram.svg"
+    },
+    {
+      "url": "https://linkedin.com/",
+      "alt": "LinkedIn",
+      "imageUrl": "assets/icons/linkedin.svg"
+    }
+  ]
+}
