@@ -1,12 +1,22 @@
 export default function TournamentHighlight() {
   return (
-    <div className="flex flex-col md:flex-row md:items-center gap-y-5 gap-x-5 lg:gap-x-10 xl:gap-x-20 !mt-0">
+    <div
+      className="flex flex-col md:flex-row md:items-center gap-y-5 gap-x-5 lg:gap-x-10 xl:gap-x-20 !mt-0">
       {/*Image*/}
       <div className="relative">
         <p className="absolute top-[-2.5rem] left-[0.5rem] text-3xl md:text-4xl lg:text-6xl">Tournaments</p>
         <div className="rounded-md overflow-hidden">
           <img src="assets/images/tournament-highlight.png" className="w-full"/>
         </div>
+
+        {/*Abstract*/}
+        <img
+          src="assets/images/grid-platform.png"
+          className="absolute bottom-[-3rem] mix-blend-color-dodge opacity-50 -z-10"/>
+        <div
+          className="absolute bottom-[-4rem] right-[-4rem] h-52 w-52 border-2 border-[#1a1a1a] rounded-full -z-10"/>
+        <div
+          className="absolute bottom-[-1.5rem] right-[-1.5rem] border-b-[10px] border-r-[10px] border-lupin-normal border-r-transparent"/>
       </div>
 
       {/*Description*/}

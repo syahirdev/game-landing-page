@@ -10,7 +10,7 @@ export default function Featured(props: Props) {
       {/*Header*/}
       <div className="flex justify-between items-center">
         <h3 className="text-3xl">{props.title}</h3>
-        <button className="bg-white text-lupin-normal rounded-md px-8 py-2">
+        <button className="bg-white text-lupin-normal rounded-md px-8 py-2 shrink-0">
           View more
         </button>
       </div>

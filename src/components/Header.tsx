@@ -1,5 +1,6 @@
 import classnames from "classnames";
 import { useState } from "react";
+import Grid from "../../public/assets/icons/Grid";
 
 export default function Header() {
   // STATES
@@ -8,7 +9,7 @@ export default function Header() {
   // VIEWS
   return (
     <header
-      className="absolute top-0 z-50 w-full flex items-center justify-between bg-nz-black px-5 lg:px-20 py-3">
+      className="absolute relative top-0 z-50 w-full flex items-center justify-between bg-nz-black px-5 lg:px-20 py-3">
       {/*Navigation*/}
       <nav>
         <ul className="flex items-center gap-x-5 xl:gap-x-12">
@@ -28,6 +29,13 @@ export default function Header() {
           placeholder="Search game, tournament, articles..."
         />
         <img src="/assets/icons/search.svg"/>
+        <div className="
+          absolute bottom-[-3.75rem] left-1/2 -translate-x-1/2
+          w-52 py-2 border-t-[2rem] border-t-nz-black border-x-[25px] border-x-transparent h-0">
+          <div className="space-y-1 mt-[-30px] w-fit mx-auto cursor-pointer">
+            <Grid/>
+          </div>
+        </div>
       </div>
 
       <div className="flex gap-x-5 items-center">
