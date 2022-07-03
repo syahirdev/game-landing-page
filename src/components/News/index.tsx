@@ -1,10 +1,18 @@
 import Thumbnail from "./Thumbnail";
-import news_data from "../../data/news.json"
+import news_data from "../../data/news.json";
+import { useParallax } from "react-scroll-parallax";
 
 export default function News() {
+  // HOOKS
+  const news = useParallax<HTMLParagraphElement>({
+    translateX: ["10%", "-10%"]
+  });
+
+  // VIEWS
   return (
     <div className="relative max-w-7xl mx-auto px-5 py-16 space-y-10">
       <p
+        ref={news.ref}
         className="font-avenir-bold absolute -top-24 left-0 text-[12rem]
         text-stroke text-transparent opacity-30 uppercase">
         get ahead

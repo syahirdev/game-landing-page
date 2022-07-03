@@ -1,11 +1,19 @@
 import Highlight from "./Highlight";
 import Featured from "./Featured";
-import tournament_data from '../../data/tournament.json'
+import tournament_data from "../../data/tournament.json";
+import { useParallax } from "react-scroll-parallax";
 
 export default function Tournaments() {
+  // HOOKS
+  const tournament = useParallax<HTMLParagraphElement>({
+    translateX: ["-10%", "10%"]
+  });
+
+  // VIEWS
   return (
     <div className="relative max-w-7xl mx-auto px-5 py-16 space-y-10 bg-nz-black">
       <p
+        ref={tournament.ref}
         className="font-avenir-bold absolute top-[-5.5rem] -left-24 text-[12rem]
         text-stroke text-transparent opacity-30 uppercase">
         tournaments

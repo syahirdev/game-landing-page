@@ -7,6 +7,7 @@ import About from "../components/About";
 import Games from "../components/Games";
 import Faq from "../components/Faq";
 import Footer from "../components/Footer";
+import Cinematic from "../components/Cinematic";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
 
         <News/>
         <Articles/>
+        <Cinematic/>
         <About/>
         <Games/>
         <Faq/>
