@@ -1073,6 +1073,11 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+iconoir-react@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/iconoir-react/-/iconoir-react-5.0.0.tgz#e81341d0f2de6b5c2f2e0c9678618cdb59ea84d2"
+  integrity sha512-XqaQdFaeCoK9UukaPYnY11nzLz8GxdviGN+WR3xFyapnmKjaPEfQhpN0D7/HFFTVpJg5q7v21WXKQYeQdJejwg==
+
 ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
