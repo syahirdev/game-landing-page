@@ -29,7 +29,6 @@ export default function Cinematic() {
             "opacity-100": scrollY >= 3200,
             "opacity-0": scrollY < 3200
           })}/>
-      {/*<div className="absolute bg-red-500 top-0 left-0 w-full h-[810px]"/>*/}
       <p
         ref={text.ref}
         className={classnames(
