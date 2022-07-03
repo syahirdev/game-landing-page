@@ -18,10 +18,10 @@ export default function Hero() {
 
         <div
           ref={wave.ref}
-          className="absolute bg-[url('/assets/images/circle-wave.png')] h-full w-full left-0 md:left-1/2 opacity-10 md:opacity-80 md:bg-contain mix-blend-color-dodge bg-no-repeat"/>
+          className="absolute animate-move-alt bg-[url('/assets/images/circle-wave.png')] h-full w-full left-0 md:left-1/2 opacity-10 md:opacity-80 md:bg-contain mix-blend-color-dodge bg-no-repeat"/>
         <div
           ref={hero.ref}
-          className="absolute bg-[url('/assets/images/hero.png')] h-full w-full left-0 md:left-1/2 opacity-30 md:opacity-100"/>
+          className="absolute animate-move bg-[url('/assets/images/hero.png')] h-full w-full left-0 md:left-1/2 opacity-30 md:opacity-100"/>
 
         <Fade left>
           <div className="flex flex-col justify-center h-full z-50">
